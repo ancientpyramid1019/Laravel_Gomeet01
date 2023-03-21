@@ -1,0 +1,246 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\Transaction\\>\\:\\:\\$amount\\.$#"
+			count: 1
+			path: app/Facades/Txn/Txn.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\Transaction\\>\\:\\:\\$type\\.$#"
+			count: 2
+			path: app/Facades/Txn/Txn.php
+
+		-
+			message: "#^Call to an undefined account App\\\\Models\\\\User\\:\\:removeMoney\\(\\)\\.$#"
+			count: 1
+			path: app/Facades/Txn/Txn.php
+
+		-
+			message: "#^Property App\\\\Models\\\\Transaction\\:\\:\\$amount \\(string\\) does not accept PhpParser\\\\Node\\\\Expr\\\\Cast\\\\Double\\.$#"
+			count: 1
+			path: app/Facades/Txn/Txn.php
+
+		-
+			message: "#^Variable \\$userID on left side of \\?\\? always exists and is always null\\.$#"
+			count: 1
+			path: app/Facades/Txn/Txn.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Auth/ConfirmablePasswordController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Auth/EmailVerificationPromptController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Auth/NewPasswordController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Auth/PasswordResetLinkController.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Auth/RegisteredUserController.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of class Illuminate\\\\Auth\\\\Events\\\\Verified constructor expects Illuminate\\\\Contracts\\\\Auth\\\\MustVerifyEmail, App\\\\Models\\\\User\\|null given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Auth/VerifyEmailController.php
+
+		-
+			message: "#^Relation 'schema' is not found in App\\\\Models\\\\Invest model\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/InvestmentController.php
+
+		-
+			message: "#^Access to an undefined property Spatie\\\\Permission\\\\Models\\\\Role\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/RoleController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Backend\\\\ScheduleController\\:\\:edit\\(\\) should return array but returns App\\\\Models\\\\Schedule\\|null\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/ScheduleController.php
+
+		-
+			message: "#^Caught class App\\\\Http\\\\Controllers\\\\Backend\\\\Exception not found\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/SettingController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Contracts\\\\Auth\\\\Authenticatable\\:\\:\\$id\\.$#"
+			count: 2
+			path: app/Http/Controllers/Backend/UserController.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Controllers\\\\Backend\\\\UserController\\:\\:index\\(\\) should return Illuminate\\\\Contracts\\\\Foundation\\\\Application\\|Illuminate\\\\Contracts\\\\View\\\\Factory\\|Illuminate\\\\Contracts\\\\View\\\\View but returns Illuminate\\\\Http\\\\JsonResponse\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/UserController.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/UserController.php
+
+		-
+			message: "#^Variable \\$message might not be defined\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/UserController.php
+
+		-
+			message: "#^Variable \\$status might not be defined\\.$#"
+			count: 1
+			path: app/Http/Controllers/Backend/UserController.php
+
+		-
+			message: "#^Method Carbon\\\\Carbon\\:\\:addHour\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: app/Http/Controllers/CronJobController.php
+
+		-
+			message: "#^Call to function compact\\(\\) contains possibly undefined variable \\$data\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/DepositController.php
+
+		-
+			message: "#^Variable \\$data might not be defined\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/DepositController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\Transaction\\>\\:\\:\\$pay_amount\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/GatewayController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\Transaction\\>\\:\\:\\$pay_currency\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/GatewayController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Schema\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<int, App\\\\Models\\\\Schema\\>\\:\\:\\$schedule\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Contracts\\\\Auth\\\\Authenticatable\\:\\:\\$balance\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Contracts\\\\Auth\\\\Authenticatable\\:\\:\\$id\\.$#"
+			count: 2
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Contracts\\\\Auth\\\\Authenticatable\\:\\:\\$profit_balance\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Call to protected account decrement\\(\\) of class Illuminate\\\\Database\\\\Eloquent\\\\Model\\.$#"
+			count: 2
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Class App\\\\Models\\\\Invest referenced with incorrect case\\: App\\\\Models\\\\invest\\.$#"
+			count: 3
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Method Carbon\\\\Carbon\\:\\:addHour\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Relation 'schedule' is not found in App\\\\Models\\\\Schema model\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Relation 'schema' is not found in App\\\\Models\\\\Invest model\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/InvestController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Schema\\|Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<int, App\\\\Models\\\\Schema\\>\\:\\:\\$schedule\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/SchemaController.php
+
+		-
+			message: "#^Relation 'schedule' is not found in App\\\\Models\\\\Schema model\\.$#"
+			count: 4
+			path: app/Http/Controllers/Frontend/SchemaController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Builder\\<App\\\\Models\\\\Transaction\\>\\:\\:\\$amount\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/StatusController.php
+
+		-
+			message: "#^Method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:update\\(\\) invoked with 3 parameters, 0\\-2 required\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/StatusController.php
+
+		-
+			message: "#^Parameter \\#2 \\$options of account Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:update\\(\\) expects array\\<int\\|string, mixed\\>, string given\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/StatusController.php
+
+		-
+			message: "#^Static call to instance account Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Controllers/Frontend/StatusController.php
+
+		-
+			message: "#^Parameter \\#3 \\.\\.\\.\\$guards of account Illuminate\\\\Auth\\\\Middleware\\\\Authenticate\\:\\:handle\\(\\) expects string, array\\<string\\> given\\.$#"
+			count: 1
+			path: app/Http/Middleware/Authenticate.php
+
+		-
+			message: "#^Method App\\\\Http\\\\Requests\\\\Auth\\\\LoginRequest\\:\\:authenticate\\(\\) should return array but return statement is missing\\.$#"
+			count: 1
+			path: app/Http/Requests/Auth/LoginRequest.php
+
+		-
+			message: "#^Call to account pluck\\(\\) on an unknown class App\\\\Models\\\\Collection\\.$#"
+			count: 3
+			path: app/Models/Setting.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Setting\\:\\:getDefinedSettingFields\\(\\) has invalid return type App\\\\Models\\\\Collection\\.$#"
+			count: 1
+			path: app/Models/Setting.php
+
+		-
+			message: "#^Method App\\\\Models\\\\Setting\\:\\:getDefinedSettingFields\\(\\) should return App\\\\Models\\\\Collection but returns Illuminate\\\\Support\\\\Collection\\<\\(int\\|string\\), mixed\\>\\.$#"
+			count: 1
+			path: app/Models/Setting.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\Setting\\:\\:\\$guarded is not covariant with PHPDoc type array\\<string\\>\\|bool of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$guarded\\.$#"
+			count: 1
+			path: app/Models/Setting.php
+
+		-
+			message: "#^Ternary operator condition is always true\\.$#"
+			count: 1
+			path: app/Models/Setting.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 2
+			path: app/Models/Setting.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: app/Providers/ViewServiceProvider.php
