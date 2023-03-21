@@ -9,10 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Invest extends Model
 {
-<<<<<<< HEAD
-    
-=======
->>>>>>> a8543ca (change style sun to the moon)
     use HasFactory;
 
     protected $guarded = ['id'];

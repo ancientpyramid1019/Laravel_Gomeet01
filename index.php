@@ -47,11 +47,8 @@ require __DIR__ . '/vendor/autoload.php';
 $app = require_once __DIR__ . '/bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
-<<<<<<< HEAD
-=======
 // $kernel = new AppKernel('/', true);
 // $request = Request::createFromGlobals();
->>>>>>> a8543ca (change style sun to the moon)
 
 $response = $kernel->handle(
     $request = Request::capture()

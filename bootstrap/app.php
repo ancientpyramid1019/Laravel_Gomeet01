@@ -16,14 +16,11 @@ $app = new Illuminate\Foundation\Application(
 
 );
 
-<<<<<<< HEAD
-=======
 $app->bind('path.public', function() {
     // print(__DIR__);
     return realpath(__DIR__.'\../');
 });
 
->>>>>>> a8543ca (change style sun to the moon)
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
